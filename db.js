@@ -1,7 +1,7 @@
 const MongoClient = require("mongodb").MongoClient;
 const ObjectID = require("mongodb").ObjectID;
 const dbname = "crud_mongodb";
-const url = "mongodb://localhost:27017";
+const url = "mongodb+srv://1234:1234@cluster0-aab27.gcp.mongodb.net/test?retryWrites=true&w=majority";
 const mongoOptions = {useNewUrlParser : true};
 
 const state = {
