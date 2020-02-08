@@ -14,6 +14,7 @@ const schema = Joi.object().keys({
 
 app.get('/', (req,res)=>{
     res.sendFile(path.join(__dirname,'index.html'));
+    console.log("sending index.html",__dirname);
 })
 
 app.get('/getTodos',(req,res)=>{
