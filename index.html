@@ -119,7 +119,8 @@
                     }).then((data)=>{
                         if(data.ok == 1){
                             $(`#${listItemID}`).remove();
-                            console.log('remove request')
+                            console.log('remove request');
+                            console.log(listItemID)
                         }
                     });
                 });
